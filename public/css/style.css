@@ -1,9 +1,23 @@
-.button {
+:root {
+    --white: white;
+    --navy: navy;
+}
 
+body {
+    background-color: var(--white);
+}
+
+.card-header {
+    color: var(--navy);
+}
+
+.button {
+    color: var(--white);
+    background-color: var(--navy);
 }
 
 .button:hover {
-    
+    background-color: lightblue;
 }
 
 .nav-item {
