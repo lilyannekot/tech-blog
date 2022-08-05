@@ -1,6 +1,6 @@
 const router = require("express").Router();
-const { Post, Comment, User } = require("../../models");
-const withAuth = require("../..utils/auth.js");
+const { Post } = require("../../models");
+const withAuth = require("../../utils/auth.js");
 
 // Create a new post
 router.post("/", withAuth, (req, res) => {
@@ -54,3 +54,5 @@ router.delete("/:id", withAuth, (req, res) => {
       res.status(500).json(err);
     });
 });
+
+module.exports = router;

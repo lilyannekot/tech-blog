@@ -34,7 +34,7 @@ router.post("/login", (req, res) => {
     const validPassword = userData.checkPassword(req.body.password);
 
     if (!validPassword) {
-      res.status(400).json({ message: "Incorrect passworf!" });
+      res.status(400).json({ message: "Incorrect password!" });
       return;
     }
     req.session.save(() => {
