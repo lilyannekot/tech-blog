@@ -20,9 +20,7 @@ This project entailed creating a [CMS-style blog](https://morning-inlet-30345.he
 
 ## Project Demonstration
 
-The following gif demonstrates...
-
-![All Get Routes](assets/demos/GET-all.gif)
+Demonstration to come!
 
 ## Code Snippet
 
